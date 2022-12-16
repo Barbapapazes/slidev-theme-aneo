@@ -1,6 +1,10 @@
 {
   "name": "slidev-theme-aneo",
   "version": "0.0.0",
+  "author": {
+    "name": "Estéban Soubiran",
+    "email": "pro.soubiran@gmail.com"
+  },
   "keywords": [
     "slidev-theme",
     "slidev"
@@ -13,13 +17,15 @@
     "build": "slidev build example.md",
     "dev": "slidev example.md --open",
     "export": "slidev export example.md",
-    "screenshot": "slidev export example.md --format png"
+    "screenshot": "slidev export example.md --format png",
+    "ci:publish": "zx scripts/publish.mjs"
   },
   "dependencies": {
     "@slidev/types": "^0.38.0",
     "codemirror-theme-vars": "^0.1.1",
     "prism-theme-vars": "^0.2.4",
-    "theme-vitesse": "^0.6.0"
+    "theme-vitesse": "^0.6.0",
+    "zx": "^7.1.1"
   },
   "devDependencies": {
     "@slidev/cli": "^0.38.0"
