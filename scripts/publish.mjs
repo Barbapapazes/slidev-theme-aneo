@@ -2,4 +2,4 @@
 
 import { $ } from 'zx'
 
-await $`pnpm publish -r --access public --no-git-checks`
+await $`pnpm publish --access public --no-git-checks`
