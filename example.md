@@ -1,4 +1,9 @@
 ---
 theme: ./
+layout: section
+---
+
+# Objectifs
+
 ---
 
