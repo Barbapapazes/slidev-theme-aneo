@@ -56,3 +56,11 @@
     @apply text-center text-lg text-white opacity-80;
   }
 }
+
+.slidev-layout.section {
+  @apply p-0;
+
+  h1 {
+    @apply text-5xl leading-20 font-black;
+  }
+}
