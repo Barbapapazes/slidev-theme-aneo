@@ -17,7 +17,7 @@ defineProps<{
       <img v-if="image" class="h-full object-cover" :class="{ 'col-start-1 row-start-1': right }" :src="image.src"
         :alt="image.alt">
     </div>
-    <img class="absolute bottom-8 right-8 w-10" src="/logos/aneo-short.png" alt="Logo court d'Aneo">
+    <img class="absolute bottom-8 right-8 h-12" src="/logos/aneo-short.png" alt="Logo court d'Aneo">
   </div>
 </template>
 
