@@ -1,3 +1,10 @@
+html,
+body,
+#app,
+#page-root {
+  font-family: 'Poppins', sans-serif;
+}
+
 .slidev-layout {
   h1 + p {
     @apply -mt-2 opacity-50 mb-4;

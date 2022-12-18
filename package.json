@@ -36,7 +36,7 @@
     "highlighter": "all",
     "defaults": {
       "fonts": {
-        "sans": "Nunito Sans",
+        "sans": "Poppins",
         "mono": "Fira Code"
       },
       "hightlighter": "prism"
