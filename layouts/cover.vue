@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import LogoAneo from '../components/logos/LogoAneo.vue';
+
 defineProps<{
   image: {
     src: string
@@ -18,7 +20,7 @@ defineProps<{
     <div class="absolute inset-0">
       <img :src="image.src" :alt="image.alt" class="object-cover w-full h-full" />
     </div>
-    <div class="absolute inset-0 bg-black opacity-50" />
-    <img class="absolute bottom-8 left-8 h-12" src="/logos/aneo.png" alt="Logo d'Aneo">
+    <div class="absolute inset-0 bg-black opacity-50"> </div>
+    <LogoAneo class="absolute bottom-8 left-8 w-auto h-12" aria-hidden="true"></LogoAneo>
   </div>
 </template>
