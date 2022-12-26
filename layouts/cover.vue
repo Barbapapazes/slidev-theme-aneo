@@ -1,26 +1,23 @@
 <script setup lang="ts">
+import { computed } from 'vue'
 import LogoAneo from '../components/logos/LogoAneo.vue';
+import { handleBackground } from '../layoutHelper'
 
-defineProps<{
-  image: {
-    src: string
-    alt: string
-  }
-}>()
+
+const props = defineProps({
+  background: {
+    default: '',
+  },
+})
+
+const style = computed(() => handleBackground(props.background, true))
 </script>
 
 <template>
-  <div class="slidev-layout cover flex flex-col justify-center items-center">
-    <div class="relative z-10">
+  <div class="slidev-layout cover flex flex-col justify-center items-center" :style="style">
+    <div>
       <slot />
-      <div class="subtitle">
-        <slot name="subtitle" />
-      </div>
     </div>
-    <div class="absolute inset-0">
-      <img :src="image.src" :alt="image.alt" class="object-cover w-full h-full" />
-    </div>
-    <div class="absolute inset-0 bg-black opacity-50"> </div>
     <LogoAneo class="absolute bottom-8 left-8 w-auto h-12" aria-hidden="true"></LogoAneo>
   </div>
 </template>
