@@ -75,3 +75,43 @@ body,
     @apply text-5xl leading-20 font-black;
   }
 }
+
+.slidev-layout.summary {
+  @apply flex flex-col;
+
+  &.disc {
+    ul {
+      @apply list-disc;
+    }
+  }
+
+  &.circle {
+    ul {
+      @apply list-circle;
+    }
+  }
+
+  &.decimal {
+    ul {
+      @apply list-decimal;
+    }
+  }
+
+  &.none {
+    ul {
+      @apply list-none;
+    }
+  }
+
+  h1 + ul {
+    @apply justify-start mt-16;
+  }
+
+  ul {
+    @apply h-full flex flex-col justify-center gap-6 text-3xl;
+  }
+
+  li {
+    @apply ml-12;
+  }
+}
