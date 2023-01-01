@@ -104,11 +104,11 @@ body,
   }
 
   h1 + ul {
-    @apply justify-start mt-16;
+    @apply justify-start mt-16 text-3xl;
   }
 
   ul {
-    @apply h-full flex flex-col justify-center gap-6 text-3xl;
+    @apply h-full flex flex-col justify-center gap-6 text-4xl;
   }
 
   li {
