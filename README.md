@@ -30,9 +30,27 @@ background: /path/to/image.png or #hex or rgb or hsl
 ---
 ```
 
-### Summary layout
+### Toc layout
 
-The summary layout is used to display a summary of your presentation.
+The toc layout is used to display a table of content of your presentation. You need to use `<Toc></Toc>` in your slides.
+
+```md
+# Summary
+
+<Toc></Toc>
+```
+
+[Multiples params](https://github.com/slidevjs/slidev/blob/main/packages/client/builtin/Toc.vue) are available.
+
+```ts
+{
+  columns?: string | number
+  listClass?: string | string[] // Use must prefix class with ! to mark it as important
+  maxDepth?: string | number
+  minDepth?: string | number
+  mode?: 'all' | 'onlyCurrentTree' | 'onlySiblings'
+}
+```
 
 ### Section layout
 

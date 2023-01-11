@@ -76,42 +76,12 @@ body,
   }
 }
 
-.slidev-layout.summary {
-  @apply flex flex-col;
-
-  &.disc {
-    ul {
-      @apply list-disc;
-    }
+.slidev-layout.toc {
+  h1 {
+    @apply mb-8;
   }
 
-  &.circle {
-    ul {
-      @apply list-circle;
-    }
-  }
-
-  &.decimal {
-    ul {
-      @apply list-decimal;
-    }
-  }
-
-  &.none {
-    ul {
-      @apply list-none;
-    }
-  }
-
-  h1 + ul {
-    @apply justify-start mt-16 text-3xl;
-  }
-
-  ul {
-    @apply h-full flex flex-col justify-center gap-6 text-4xl;
-  }
-
-  li {
-    @apply ml-12;
+  ol {
+    @apply ml-8 text-2xl;
   }
 }
