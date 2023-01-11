@@ -43,6 +43,10 @@ body,
   h6:not(.opacity-100) {
     @apply opacity-40;
   }
+
+  .slide-number {
+    @apply absolute bottom-8 right-8 opacity-60;
+  }
 }
 
 .slidev-layout.cover,

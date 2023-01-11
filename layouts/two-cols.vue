@@ -14,5 +14,6 @@ const props = defineProps({
     <div class="col-right" :class="props.class">
       <slot name="right" />
     </div>
+    <SlideNumber></SlideNumber>
   </div>
 </template>
