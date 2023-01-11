@@ -40,7 +40,7 @@
         "sans": "Poppins",
         "mono": "Fira Code"
       },
-      "hightlighter": "prism"
+      "hightlighter": "shiki"
     }
   }
 }

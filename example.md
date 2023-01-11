@@ -2,6 +2,7 @@
 theme: ./
 layout: cover
 background: https://images.unsplash.com/photo-1535957998253-26ae1ef29506?fit=crop&w=736&q=80
+highlighter: shiki
 ---
 
 # Titre de la présentation
@@ -61,3 +62,43 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 Colonne 2
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nullam non nisi est sit amet facilisis magna. Eu ultrices vitae auctor eu. Non quam lacus suspendisse faucibus interdum posuere lorem ipsum dolor. Dignissim enim sit amet venenatis urna cursus. Sagittis vitae et leo duis ut diam quam nulla porttitor. Morbi tempus iaculis urna id volutpat.
+
+
+---
+
+# Du code
+
+```ts
+import { promises as fs } from 'fs';
+
+export class Store {
+    constructor() {
+    }
+
+    async foo() {
+        const buffer = await fs.readFile('test.yaml', 'utf-8');
+        return buffer.substr(0, buffer.length);
+    }
+}
+```
+
+---
+
+# Un dockerfile ?
+
+```docker	
+# first stage that is used to build the application
+FROM ubuntu as build
+RUN install tools needed to build the application (compiler)
+
+COPY src/* /dest
+WORKDIR /dest
+RUN compile the code
+
+# second stage that only holds the application and its runtime depdencies
+FROM ubuntu
+RUN install tools needed to execute the application (runtime)
+COPY --from=build /dest/bin/ /usr/local/bin/
+
+ENTRYPOINT ["/usr/local/bin/myapplication", "the", "options"]
+```
