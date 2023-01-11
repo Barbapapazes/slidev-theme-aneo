@@ -43,6 +43,10 @@ body,
   h6:not(.opacity-100) {
     @apply opacity-40;
   }
+
+  .slide-number {
+    @apply absolute bottom-8 right-8 opacity-60;
+  }
 }
 
 .slidev-layout.cover,
@@ -60,11 +64,11 @@ body,
 
 .slidev-layout.cover {
   h1 {
-    @apply font-black text-white;
+    @apply font-black dark:text-white;
   }
 
   .subtitle {
-    @apply text-center text-lg text-white opacity-80;
+    @apply text-center text-lg dark:text-white opacity-80;
   }
 }
 
