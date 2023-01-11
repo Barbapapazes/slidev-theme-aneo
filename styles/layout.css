@@ -60,11 +60,11 @@ body,
 
 .slidev-layout.cover {
   h1 {
-    @apply font-black text-white;
+    @apply font-black dark:text-white;
   }
 
   .subtitle {
-    @apply text-center text-lg text-white opacity-80;
+    @apply text-center text-lg dark:text-white opacity-80;
   }
 }
 
