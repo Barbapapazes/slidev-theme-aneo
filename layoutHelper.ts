@@ -8,7 +8,11 @@ export function resolveAssetUrl(url: string) {
   return url
 }
 
-export function handleBackground(background?: string, dim = false): CSSProperties {
+export function handleBackground(
+  background?: string,
+  dim = false,
+  position: BackgroundPosition = 'center'
+): CSSProperties {
   const isColor = background && ['#', 'rgb', 'hsl'].some((v) => background.indexOf(v) === 0)
 
   const style = {
@@ -22,7 +26,7 @@ export function handleBackground(background?: string, dim = false): CSSPropertie
         : `url("${resolveAssetUrl(background)}")`
       : undefined,
     backgroundRepeat: 'no-repeat',
-    backgroundPosition: 'center',
+    backgroundPosition: position,
     backgroundSize: 'cover',
   }
 

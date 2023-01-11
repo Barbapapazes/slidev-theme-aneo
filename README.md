@@ -38,9 +38,13 @@ The summary layout is used to display a summary of your presentation.
 
 The section layout is used to display a section of your presentation.
 
+If the background is an image, you can choose position to display the content (default is center). All position available in [the background-position.ts](./types/background-position.ts).
+
 ```yaml
 ---
 background: /path/to/image.png or #hex or rgb or hsl
+right: true  or false # Used to display the background a the left or the right of the slide
+position: left or right or center or top or bottom
 ---
 ```
 

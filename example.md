@@ -39,6 +39,7 @@ listStyle: decimal
 ---
 layout: section
 background: https://images.unsplash.com/photo-1497032628192-86f99bcd76bc?fit=crop&w=1470&q=80
+position: right
 ---
 # Objectifs
 
