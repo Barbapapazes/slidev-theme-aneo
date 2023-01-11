@@ -43,7 +43,7 @@ If the background is an image, you can choose position to display the content (d
 ```yaml
 ---
 background: /path/to/image.png or #hex or rgb or hsl
-right: true  or false
+right: true  or false # Used to display the background a the left or the right of the slide
 position: left or right or center or top or bottom
 ---
 ```
