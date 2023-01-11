@@ -1,7 +1,7 @@
 {
   "name": "slidev-theme-aneo",
   "packageManager": "pnpm@7.24.3",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "author": {
     "name": "Estéban Soubiran",
     "email": "pro.soubiran@gmail.com"
