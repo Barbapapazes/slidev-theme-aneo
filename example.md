@@ -9,6 +9,14 @@ background: https://images.unsplash.com/photo-1535957998253-26ae1ef29506?fit=cro
 Octobre 2022
 
 ---
+layout: cover
+---
+
+# Titre de la présentation
+
+Octobre 2022
+
+---
 layout: summary
 listStyle: none
 ---
