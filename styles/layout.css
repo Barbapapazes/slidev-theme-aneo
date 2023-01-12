@@ -49,7 +49,7 @@ body,
   }
 
   .slide-number {
-    @apply absolute bottom-8 right-8 opacity-60;
+    @apply absolute bottom-6 right-8 opacity-60;
   }
 
   .slides-author {
