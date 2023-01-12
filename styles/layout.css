@@ -43,18 +43,6 @@ body,
   h6:not(.opacity-100) {
     @apply opacity-40;
   }
-
-  .slides-title {
-    @apply absolute bottom-6 left-8 opacity-60;
-  }
-
-  .slide-number {
-    @apply absolute bottom-6 right-8 opacity-60;
-  }
-
-  .slides-author {
-    @apply absolute bottom-8 left-1/2 transform -translate-x-1/2 opacity-60;
-  }
 }
 
 .slidev-layout.cover,

@@ -3,7 +3,7 @@ const title = $slidev.configs.title
 </script>
 
 <template>
-  <div class="slides-title">
+  <div>
     {{ title }}
   </div>
 </template>

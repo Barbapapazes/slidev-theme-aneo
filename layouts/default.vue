@@ -5,8 +5,6 @@
 <template>
   <div class="slidev-layout default">
     <slot />
-    <Author></Author>
-    <SlidesTitle />
-    <SlideNumber></SlideNumber>
+    <SlidesStatus></SlidesStatus>
   </div>
 </template>
