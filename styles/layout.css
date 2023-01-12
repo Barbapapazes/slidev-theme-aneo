@@ -51,6 +51,10 @@ body,
   .slide-number {
     @apply absolute bottom-8 right-8 opacity-60;
   }
+
+  .slides-author {
+    @apply absolute bottom-8 left-1/2 transform -translate-x-1/2 opacity-60;
+  }
 }
 
 .slidev-layout.cover,
