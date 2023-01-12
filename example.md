@@ -3,6 +3,7 @@ theme: ./
 layout: cover
 background: https://images.unsplash.com/photo-1535957998253-26ae1ef29506?fit=crop&w=736&q=80
 highlighter: shiki
+favicon: /favicon.ico
 ---
 
 # Titre de la présentation
