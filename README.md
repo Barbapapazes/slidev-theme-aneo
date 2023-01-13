@@ -16,63 +16,10 @@ theme: <b>aneo</b>
 
 Learn more about [how to use a theme](https://sli.dev/themes/use).
 
-## Layouts
-
-This theme provides the following layouts:
-
-### Cover layout
-
-The cover layout is used ad the first slide of your presentation. It is used to display the title of your presentation and the date.
-
-```yaml
----
-background: /path/to/image.png or #hex or rgb or hsl
----
-```
-
-### Toc layout
-
-The toc layout is used to display a table of content of your presentation. You need to use `<Toc></Toc>` in your slides.
-
-```md
-# Summary
-
-<Toc></Toc>
-```
-
-[Multiples params](https://sli.dev/builtin/components.html#toc) are available.
-
-```ts
-{
-  columns?: string | number
-  listClass?: string | string[] // Use must prefix class with ! to mark it as important
-  maxDepth?: string | number
-  minDepth?: string | number
-  mode?: 'all' | 'onlyCurrentTree' | 'onlySiblings'
-}
-```
-
-### Section layout
-
-The section layout is used to display a section of your presentation.
-
-If the background is an image, you can choose position to display the content (default is center). All position available in [the background-position.ts](./types/background-position.ts).
-
-```yaml
----
-background: /path/to/image.png or #hex or rgb or hsl
-right: true or false # Used to display the background at the left or the right of the slide
-position: left or right or center or top or bottom
----
-```
-
 ### Two columns layout
 
 The two columns layout is used to display two columns of content.
 
-## Components
-
-This theme is not providing any components.
 
 ## Contributing
 
