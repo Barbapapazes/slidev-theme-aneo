@@ -6,5 +6,4 @@ index.html
 .remote-assets
 .idea/
 components.d.ts
-.docs/.nuxt
-.docs/.output
+.pdf
