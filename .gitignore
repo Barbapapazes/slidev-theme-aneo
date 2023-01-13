@@ -7,3 +7,4 @@ index.html
 .idea/
 components.d.ts
 .docs/.nuxt
+.docs/.output
