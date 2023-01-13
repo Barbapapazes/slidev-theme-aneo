@@ -16,10 +16,6 @@ Octobre 2022
 layout: cover
 ---
 
-# Titre de la présentation
-
-Octobre 2022
-
 ---
 layout: toc
 
