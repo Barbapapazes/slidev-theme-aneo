@@ -35,11 +35,12 @@
   "slidev": {
     "colorSchema": "both",
     "highlighter": "all",
-    "defaults": {
+    "default": {
       "fonts": {
         "sans": "Poppins",
         "mono": "Fira Code"
       },
+      "favicon": "/favicon.ico",
       "hightlighter": "shiki"
     }
   }
