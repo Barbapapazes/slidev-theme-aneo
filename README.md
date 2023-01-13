@@ -8,7 +8,7 @@ See live demo [here](https://slidev-aneo.esteban-soubiran.site).
 
 ## Install
 
-Add the following frontmatter to your `slides.md`. Start Slidev then it will prompt you to install the theme automatically.
+Add the following front-matter to your `slides.md`. Start Slidev then it will prompt you to install the theme automatically.
 
 <pre><code>---
 theme: <b>aneo</b>
@@ -40,7 +40,7 @@ The toc layout is used to display a table of content of your presentation. You n
 <Toc></Toc>
 ```
 
-[Multiples params](https://github.com/slidevjs/slidev/blob/main/packages/client/builtin/Toc.vue) are available.
+[Multiples params](https://sli.dev/builtin/components.html#toc) are available.
 
 ```ts
 {
@@ -61,7 +61,7 @@ If the background is an image, you can choose position to display the content (d
 ```yaml
 ---
 background: /path/to/image.png or #hex or rgb or hsl
-right: true  or false # Used to display the background a the left or the right of the slide
+right: true or false # Used to display the background at the left or the right of the slide
 position: left or right or center or top or bottom
 ---
 ```
