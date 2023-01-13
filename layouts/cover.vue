@@ -13,7 +13,7 @@ const props = defineProps({
 const style = computed(() => handleBackground(props.background, true))
 
 // @ts-ignore
-const title = $slidev.configs.title
+const { title, author } = $slidev.configs
 </script>
 
 <template>
@@ -24,7 +24,14 @@ const title = $slidev.configs.title
           {{ title }}
         </h1>
         <p>
-          {{ new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long' }) }}
+          {{ author }}
+          {{ author && title ? '-' : ''}}
+          {{
+  new Date().toLocaleDateString('en-US', {
+    year: 'numeric',
+    month: 'long'
+  })
+          }}
         </p>
       </slot>
     </div>
