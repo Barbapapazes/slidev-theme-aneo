@@ -68,6 +68,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 
 ---
+seeMore:
+    href: https://google.com
+    text: Google
+---
 
 # Du code
 
