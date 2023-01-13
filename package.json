@@ -19,7 +19,11 @@
     "dev": "slidev example.md --open",
     "export": "slidev export example.md",
     "screenshot": "slidev export example.md --format png",
-    "ci:publish": "zx scripts/publish.mjs"
+    "ci:publish": "zx scripts/publish.mjs",
+    "dev:docs": "nuxi dev .docs",
+    "build:docs": "nuxi build .docs",
+    "generate:docs": "nuxi generate .docs",
+    "preview:docs": "nuxi preview .docs"
   },
   "dependencies": {
     "@slidev/types": "^0.38.0",
@@ -29,7 +33,9 @@
     "zx": "^7.1.1"
   },
   "devDependencies": {
-    "@slidev/cli": "^0.38.0"
+    "@slidev/cli": "^0.38.0",
+    "nuxt": "^3.0.0",
+    "@nuxt-themes/docus": "^1.1.5"
   },
   "//": "Learn more: https://sli.dev/themes/write-a-theme.html",
   "slidev": {
