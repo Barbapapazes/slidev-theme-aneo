@@ -20,7 +20,8 @@ const style = computed(() => handleBackground(props.background, true, props.posi
       </div>
       <div :style="style" :class="{ 'row-start-1': right }"></div>
     </div>
-    <LogoAneoShort class="absolute bottom-8 right-8 w-auto h-12" aria-hidden="true">
+    <LogoAneoShort class="absolute bottom-6 w-auto h-10" :class="{ 'right-8': right, 'left-8': !right }"
+      aria-hidden="true">
     </LogoAneoShort>
   </div>
 </template>
