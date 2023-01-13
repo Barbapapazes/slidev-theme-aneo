@@ -16,10 +16,9 @@ theme: <b>aneo</b>
 
 Learn more about [how to use a theme](https://sli.dev/themes/use).
 
-### Two columns layout
+## Documentation
 
-The two columns layout is used to display two columns of content.
-
+See the [documentation](https://barbapapazes.github.io/slidev-theme-aneo/) for more information.
 
 ## Contributing
 
@@ -29,4 +28,4 @@ The two columns layout is used to display two columns of content.
 - `npm run export` to generate the preview PDF
 - `npm run screenshot` to generate the preview PNG
 
-Feel free to open an issue or PR if you have any questions or suggestions.
+Feel free to **open an issue** or **PR** if you have any questions or suggestions.
