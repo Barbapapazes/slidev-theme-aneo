@@ -1,9 +1,10 @@
 <script lang="ts" setup>
-const title = $slidev.configs.title
+// @ts-ignore
+const { title, disableSlidesTitle } = $slidev.configs
 </script>
 
 <template>
-  <div>
+  <div v-if="!disableSlidesTitle">
     {{ title }}
   </div>
 </template>
