@@ -1,5 +1,5 @@
 <template>
-  <div class="slide-number text-sm">
+  <div>
     <SlideCurrentNo /> /
     <SlidesTotal />
   </div>

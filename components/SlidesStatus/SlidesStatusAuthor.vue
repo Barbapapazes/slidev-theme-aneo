@@ -3,7 +3,7 @@ const author = $slidev.configs.author
 </script>
 
 <template>
-  <div class="slides-author">
+  <div>
     {{ author }}
   </div>
 </template>
