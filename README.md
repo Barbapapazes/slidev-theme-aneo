@@ -4,7 +4,8 @@
 
 Aneo theme for [Slidev](https://github.com/slidevjs/slidev).
 
-See live demo [here](https://slidev-aneo.esteban-soubiran.site).
+See [live demo](https://slidev-aneo.esteban-soubiran.site).
+See [documentation](https://barbapapazes.github.io/slidev-theme-aneo/).
 
 ## Install
 
