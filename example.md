@@ -112,6 +112,7 @@ COPY --from=build /dest/bin/ /usr/local/bin/
 
 ENTRYPOINT ["/usr/local/bin/myapplication", "the", "options"]
 ```
+- `Dockerfile`: dockerfile
 
 ---
 

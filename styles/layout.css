@@ -48,6 +48,15 @@ body,
   h6:not(.opacity-100) {
     @apply opacity-40;
   }
+
+  :not(pre) code {
+    @apply text-center px-1.5;
+  }
+
+  :not(pre) code::before,
+  :not(pre) code::after {
+    @apply content-[''];
+  }
 }
 
 .slidev-layout.cover,
