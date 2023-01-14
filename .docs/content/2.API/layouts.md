@@ -20,7 +20,7 @@ background: /path/to/image.png or #hex or rgb or hsl
 Subtitle
 ```
 
-If you provide title or / and author, you can have a blank cover slide.
+If you provide title and author, you can have a blank cover slide.
 
 ```md[slides.md]
 ---
