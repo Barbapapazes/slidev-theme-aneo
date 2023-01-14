@@ -115,8 +115,6 @@ ENTRYPOINT ["/usr/local/bin/myapplication", "the", "options"]
 
 ---
 
-# Quelques alerts
-
 <Alert title="Titre de l'alerte" color="orange">
 
 Je suis le **contenu** de l'alerte. [Changez de page](/1).
