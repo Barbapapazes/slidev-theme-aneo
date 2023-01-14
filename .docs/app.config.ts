@@ -8,9 +8,11 @@ export default defineAppConfig({
       github: 'Barbapapazes/slidev-theme-aneo',
     },
     github: {
-      root: '.docs',
+      owner: 'Barbapapazes',
+      repo: 'slidev-theme-aneo',
+      dir: '.docs',
+      branch: 'main',
       edit: true,
-      contributors: true,
     },
     aside: {
       level: 0,
@@ -19,7 +21,7 @@ export default defineAppConfig({
     header: {
       logo: false,
       showLinkIcon: true,
-      title: 'Slidev Theme Aneo',
+      title: 'Slidev Aneo',
       exclude: [],
     },
     footer: {

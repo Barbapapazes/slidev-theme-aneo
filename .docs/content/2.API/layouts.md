@@ -20,6 +20,33 @@ background: /path/to/image.png or #hex or rgb or hsl
 Subtitle
 ```
 
+If you provide title and author, you can have a blank cover slide.
+
+```md[slides.md]
+---
+theme: aneo
+layout: cover
+title: My presentation
+author: John Doe
+---
+
+<!--
+Filled using config. It's the same as:
+
+# My presentation
+
+John Doe - <today's date>
+ -->
+
+---
+
+# Second slides
+```
+
+::alert{type="info"}
+Read more about [configuration](https://sli.dev/guide/syntax.html#configurations)
+::
+
 ## Toc
 
 The toc layout is used to display a table of content of your presentation. You need to use `<Toc></Toc>` in your slides.
@@ -31,6 +58,23 @@ layout: toc
 ## Summary
 
 <Toc></Toc>
+```
+
+If you want to hide a slide from the toc, you can use the `hideInToc` front-matter in the slide you want to hide.
+
+```md
+---
+layout: toc
+---
+## Summary
+
+<Toc></Toc>
+
+---
+hideInToc: true
+---
+
+## Hidden slide in toc
 ```
 
 ::alert{type="info"}
