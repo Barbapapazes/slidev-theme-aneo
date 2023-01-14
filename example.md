@@ -18,10 +18,6 @@ layout: cover
 hideInToc: true
 ---
 
-# Titre de la présentation
-
-Octobre 2022
-
 ---
 layout: toc
 hideInToc: true
