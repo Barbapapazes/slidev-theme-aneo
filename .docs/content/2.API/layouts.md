@@ -37,6 +37,10 @@ author: John Doe
 # Second slides
 ```
 
+::alert{type="info"}
+Read more about [configuration](https://sli.dev/guide/syntax.html#configurations)
+::
+
 ## Toc
 
 The toc layout is used to display a table of content of your presentation. You need to use `<Toc></Toc>` in your slides.
