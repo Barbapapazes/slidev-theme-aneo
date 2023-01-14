@@ -25,7 +25,7 @@ const { title, author } = $slidev.configs
         </h1>
         <p>
           {{ author }}
-          {{ author && title ? '-' : ''}}
+          {{ author? '-': '' }}
           {{
   new Date().toLocaleDateString('en-US', {
     year: 'numeric',
