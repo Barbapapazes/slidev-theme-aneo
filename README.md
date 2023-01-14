@@ -42,7 +42,7 @@ Then, you can run the following commands:
 - `pnpm install`
 - `pnpm run dev` to start theme preview of `example.md`
 - Edit the `example.md` and style to see the changes
-- `pnpm run export` to generate the preview PDF
+- `pnpm run export` to generate the preview PDF (you need to run `sudo npx playwright install-deps` first on `linux`)
 - `pnpm run screenshot` to generate the preview PNG
 
 Feel free to **open an issue** or **PR** if you have any questions or suggestions.
