@@ -25,8 +25,14 @@ See the [documentation](https://barbapapazes.github.io/slidev-theme-aneo/) for m
 
 First, you need to install `pnpm` globally:
 
-```bash
+```cmd
 npm install -g pnpm
+```
+
+or with `linux`:
+
+```bash
+sudo npm install -g pnpm
 ```
 
 _Pnpm is used instead of npm because it is faster and more reliable._ Learn more about [pnpm](https://pnpm.io/).
