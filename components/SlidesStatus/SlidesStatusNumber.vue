@@ -1,5 +1,10 @@
+<script lang="ts" setup>
+// @ts-ignore
+const disableSlidesNumber = $slidev.configs.disableSlideNumber;
+</script>
+
 <template>
-  <div>
+  <div v-if="!disableSlidesNumber">
     <SlideCurrentNo /> /
     <SlidesTotal />
   </div>

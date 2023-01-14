@@ -1,9 +1,10 @@
 <script lang="ts" setup>
-const author = $slidev.configs.author
+// @ts-ignore
+const { author, disableSlidesAuthor } = $slidev.configs
 </script>
 
 <template>
-  <div>
+  <div v-if="!disableSlidesAuthor">
     {{ author }}
   </div>
 </template>
