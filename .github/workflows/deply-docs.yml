@@ -1,4 +1,4 @@
-name: Deploy Nuxt site to Pages
+name: Deploy Docus site to Pages
 
 on:
   push:
@@ -6,8 +6,6 @@ on:
       - main
     paths:
       - ".docs/**"
-      - "package.json"
-      - "pnpm-lock.yaml"
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
@@ -25,12 +23,12 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: .docs
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-
-      - name: Install pnpm
-        run: npm install -g pnpm
 
       - name: Setup Node
         uses: actions/setup-node@v3
@@ -42,21 +40,19 @@ jobs:
         uses: actions/cache@v3
         with:
           path: node_modules
-          key: node-modules-${{ hashFiles('pnpm-lock.yaml') }}
+          key: node-modules-${{ hashFiles('package-lock.json') }}
 
       - name: Install dependencies
         if: steps.node-cache.outputs.cache-hit != 'true'
-        run: pnpm install
+        run: npm ci
 
       - name: Static HTML export with Nuxt
-        run: pnpm run generate:docs
-        env:
-          NUXT_APP_BASE_URL: ${{ env.NUXT_APP_BASE_URL }}
+        run: npm run generate
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
-          path: .docs/.output/public
+          path: ./output/public
 
   deploy:
     environment:
