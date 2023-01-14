@@ -30,7 +30,13 @@ title: My presentation
 author: John Doe
 ---
 
-<!-- Filled using config -->
+<!--
+Filled using config. It's the same as:
+
+# My presentation
+
+John Doe - <today's date>
+ -->
 
 ---
 
