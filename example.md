@@ -119,13 +119,13 @@ Je suis le **contenu** de l'alerte. [Changez de page](/1).
 
 </Alert>
 
-<Alert title="Titre de l'alerte" color="red">
+<Alert class="mt-8" title="Titre de l'alerte" color="red">
 
 Je suis le **contenu** de l'alerte. [Changez de page](/1).
 
 </Alert>
 
-<Alert title="Titre de l'alerte" color="yellow">
+<Alert class="mt-8" title="Titre de l'alerte" color="yellow">
 
 Je suis le **contenu** de l'alerte. [Changez de page](/1).
 
@@ -135,13 +135,13 @@ Je suis le **contenu** de l'alerte. [Changez de page](/1).
 
 # Quelques alerts 2
 
-<Alert title="Titre de l'alerte" color="blue">
+<Alert class="mt-8" title="Titre de l'alerte" color="blue">
 
 Je suis le **contenu** de l'alerte. [Changez de page](/1).
 
 </Alert>
 
-<Alert title="Titre de l'alerte" color="green">
+<Alert class="mt-8" title="Titre de l'alerte" color="green">
 
 Je suis le **contenu** de l'alerte. [Changez de page](/1).
 
@@ -155,8 +155,3 @@ Subtitle
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nullam non nisi est sit amet facilisis magna. Eu ultrices vitae auctor eu. Non quam lacus suspendisse faucibus interdum posuere lorem ipsum dolor. Dignissim enim sit amet venenatis urna cursus. Sagittis vitae et leo duis ut diam quam nulla porttitor. Morbi tempus iaculis urna id volutpat.
 
-<Alert title="Titre de l'alerte">
-
-Je suis le **contenu** de l'alerte. [Changez de page](/1).
-
-</Alert>

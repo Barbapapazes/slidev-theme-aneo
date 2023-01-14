@@ -10,11 +10,6 @@ body,
     @apply -mt-2 mb-4 opacity-60;
   }
 
-  * + .alert,
-  {
-    @apply mt-8;
-  }
-
   p + h2,
   ul + h2,
   table + h2 {
