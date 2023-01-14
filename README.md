@@ -23,10 +23,20 @@ See the [documentation](https://barbapapazes.github.io/slidev-theme-aneo/) for m
 
 ## Contributing
 
-- `npm install`
-- `npm run dev` to start theme preview of `example.md`
+First, you need to install `pnpm` globally:
+
+```bash
+npm install -g pnpm
+```
+
+_Pnpm is used instead of npm because it is faster and more reliable._ Learn more about [pnpm](https://pnpm.io/).
+
+Then, you can run the following commands:
+
+- `pnpm install`
+- `pnpm run dev` to start theme preview of `example.md`
 - Edit the `example.md` and style to see the changes
-- `npm run export` to generate the preview PDF
-- `npm run screenshot` to generate the preview PNG
+- `pnpm run export` to generate the preview PDF
+- `pnpm run screenshot` to generate the preview PNG
 
 Feel free to **open an issue** or **PR** if you have any questions or suggestions.
