@@ -1,4 +1,4 @@
-name: Deploy Dpcus site to Pages
+name: Deploy Docus site to Pages
 
 on:
   push:
