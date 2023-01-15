@@ -1,7 +1,7 @@
 {
   "name": "slidev-theme-aneo",
   "packageManager": "pnpm@7.25.0",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "license": "MIT",
   "author": {
     "name": "Estéban Soubiran",
