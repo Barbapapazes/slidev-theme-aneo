@@ -44,7 +44,7 @@ body,
     @apply opacity-40;
   }
 
-  :not(pre) code {
+  :not(pre) > code {
     @apply text-center px-1.5;
   }
 
