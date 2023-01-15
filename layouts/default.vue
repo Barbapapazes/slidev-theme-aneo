@@ -6,6 +6,7 @@ defineProps<{
 
 <template>
   <div class="slidev-layout default">
+    <Logo />
     <SeeMore v-if="seeMore" :seeMore="seeMore" />
     <slot />
     <SlidesStatus></SlidesStatus>
