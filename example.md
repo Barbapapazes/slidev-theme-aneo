@@ -21,13 +21,20 @@ hideInToc: true
 ---
 layout: toc
 hideInToc: true
-
 ---
 
-# Sommaire
+# Sommaire complet
 
-<Toc columns="2" listClass="!list-none"> </Toc>
+<Toc columns="2" listClass="!list-none"></Toc>
 
+---
+layout: toc
+hideInToc: true
+---
+
+# Sommaire sections only
+
+<Toc maxDepth="1"></Toc>
 
 ---
 layout: section
@@ -154,3 +161,24 @@ Subtitle
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nullam non nisi est sit amet facilisis magna. Eu ultrices vitae auctor eu. Non quam lacus suspendisse faucibus interdum posuere lorem ipsum dolor. Dignissim enim sit amet venenatis urna cursus. Sagittis vitae et leo duis ut diam quam nulla porttitor. Morbi tempus iaculis urna id volutpat.
 
+---
+layout: section
+---
+
+# Section with subsections
+
+---
+
+## Subsection 1
+
+Subtitle subsection 1
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nullam non nisi est sit amet facilisis magna. Eu ultrices vitae auctor eu. Non quam lacus suspendisse faucibus interdum posuere lorem ipsum dolor. Dignissim enim sit amet venenatis urna cursus. Sagittis vitae et leo duis ut diam quam nulla porttitor. Morbi tempus iaculis urna id volutpat.
+
+---
+
+## Subsection 2
+
+Subtitle subsection 2
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nullam non nisi est sit amet facilisis magna. Eu ultrices vitae auctor eu. Non quam lacus suspendisse faucibus interdum posuere lorem ipsum dolor. Dignissim enim sit amet venenatis urna cursus. Sagittis vitae et leo duis ut diam quam nulla porttitor. Morbi tempus iaculis urna id volutpat.
