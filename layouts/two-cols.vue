@@ -7,6 +7,7 @@ const props = defineProps<{
 
 <template>
   <div class="slidev-layout two-columns w-full h-full grid grid-cols-2 gap-4">
+    <Logo />
     <SeeMore v-if="seeMore" :seeMore="seeMore" />
     <div class="col-left" :class="props.class">
       <slot />
