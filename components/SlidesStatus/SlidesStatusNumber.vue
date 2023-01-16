@@ -4,7 +4,7 @@ const { disableSlidesNumber } = $slidev.configs;
 </script>
 
 <template>
-  <div v-if="!disableSlidesNumber">
+  <div v-if="!disableSlidesNumber" class="text-zinc-400">
     <SlideCurrentNo /> /
     <SlidesTotal />
   </div>

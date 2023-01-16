@@ -4,7 +4,7 @@ const { author, disableSlidesAuthor } = $slidev.configs
 </script>
 
 <template>
-  <div v-if="!disableSlidesAuthor">
+  <div v-if="!disableSlidesAuthor" class="text-zinc-400">
     {{ author }}
   </div>
 </template>
