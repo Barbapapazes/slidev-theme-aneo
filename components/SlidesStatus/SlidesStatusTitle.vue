@@ -4,7 +4,7 @@ const { title, disableSlidesTitle } = $slidev.configs
 </script>
 
 <template>
-  <div v-if="!disableSlidesTitle">
+  <div v-if="!disableSlidesTitle" class="text-zinc-400">
     {{ title }}
   </div>
 </template>
