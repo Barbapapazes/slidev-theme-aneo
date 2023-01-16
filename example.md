@@ -129,7 +129,7 @@ Je suis le **contenu** de l'alerte. [Changez de page](/1).
 
 <Alert class="mt-8" title="Titre de l'alerte" color="red">
 
-Je suis le **contenu** de l'alerte. [Changez de page](/1).
+- Item 1
 
 </Alert>
 
