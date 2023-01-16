@@ -115,12 +115,17 @@ Position rely on [background-position](https://developer.mozilla.org/en-US/docs/
 
 The two columns layout is used to display two columns of content.
 
-To add content to the second column, you need to write it after `::right::`
+You can use the `::left::` and `::right::` to display content in the left and right column.
 
 ```md
 ---
 layout: two-cols
 ---
+
+# Title
+
+::left::
+
 ## Left columns
 
 ::right::
