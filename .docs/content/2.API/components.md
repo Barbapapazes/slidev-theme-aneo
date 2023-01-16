@@ -37,6 +37,37 @@ Paragraph
 Be aware to the **space between the component tag and the content**. There are important to be able to parse the content correctly.
 ::
 
+## Class and style
+
+You can add a class to your component:
+
+```html
+<LikeHTML class="my-class">
+  <h1>Heading</h1>
+  <p>Paragraph</p>
+</LikeHTML>
+```
+
+But this theme come with [Windi CSS](https://windicss.org/) so you can use the power of this utility-first CSS framework:
+
+```html
+<LikeHTML class="mt-6 bg-blue-500 text-white">
+  <h1>Heading</h1>
+  <p>Paragraph</p>
+</LikeHTML>
+```
+
+::alert{type="info"}
+Read more about [Windi CSS](https://windicss.org/).
+
+- [Colors](https://windicss.org/utilities/general/colors.html)
+- [Spacing](https://windicss.org/utilities/general/typography.html)
+- [Typography](https://windicss.org/utilities/layout/spacing.html)
+
+and more...
+::
+
+
 ## Alert
 
 This component can be used to highlight important information.
