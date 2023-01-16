@@ -35,6 +35,6 @@ const { title, author } = $slidev.configs
         </p>
       </slot>
     </div>
-    <LogoAneo class="absolute bottom-8 right-8 w-auto h-12" aria-hidden="true"></LogoAneo>
+    <LogoAneo class="absolute bottom-12 left-1/2 transform -translate-x-1/2 w-auto h-8" aria-hidden="true"></LogoAneo>
   </div>
 </template>

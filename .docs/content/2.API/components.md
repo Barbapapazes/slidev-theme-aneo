@@ -72,19 +72,21 @@ and more...
 
 This component can be used to highlight important information.
 
-```md
+```html
 <Alert color="blue" title="Title">
+
   This is an alert.
+
 </Alert>
 ```
 
-Props:
-- title: `string`, `required`
-- color: `Color`, `required`
+::alert{type="danger"}
+Be aware to add space between the component and the content above it. Otherwise, the component will be rendered on the same line.
+::
 
-Available `Color` values:
-- Orange
-- Red
-- Green
-- Blue
-- Yellow
+| Props | Type | Default | Description |
+| --- | --- | --- | --- |
+| title | `string` | `undefined` | The title of the alert. |
+| color | `Color` | `undefined` | The color of the alert. |
+
+Available `Color` values are **orange**, **red**, **green**, **blue**, **yellow**.
