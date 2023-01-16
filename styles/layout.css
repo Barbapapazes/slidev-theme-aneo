@@ -6,7 +6,8 @@ body,
 }
 
 .slidev-layout {
-  h1 + p {
+  h1 + p,
+  h2 + p {
     @apply -mt-2 mb-4 opacity-60;
   }
 
@@ -16,8 +17,9 @@ body,
     @apply mt-10;
   }
 
-  h1 {
-    @apply text-4xl mb-4 -ml-[0.05em];
+  h1,
+  & > h2 {
+    @apply !text-4xl mb-4 -ml-[0.05em];
   }
 
   h2 {

@@ -71,7 +71,8 @@ right: true
 layout: two-cols
 ---
 
-# Title
+## Title
+Subtitle
 
 ::left::
 
@@ -92,7 +93,7 @@ seeMore:
     text: Google
 ---
 
-# Du code
+## Du code
 
 ```ts
 import { promises as fs } from 'fs';
@@ -211,3 +212,17 @@ Le contenu est centré
 Je suis le **contenu** de l'alerte. [Changez de page](/1).
 
 </Alert>
+
+---
+
+# Titre
+Subtitle
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nullam non nisi est sit amet facilisis magna. Eu ultrices vitae auctor eu. Non quam lacus suspendisse faucibus interdum posuere lorem ipsum dolor. Dignissim enim sit amet venenatis urna cursus. Sagittis vitae et leo duis ut diam quam nulla porttitor. Morbi tempus iaculis urna id volutpat.
+
+---
+
+## Titre
+Subtitle
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nullam non nisi est sit amet facilisis magna. Eu ultrices vitae auctor eu. Non quam lacus suspendisse faucibus interdum posuere lorem ipsum dolor. Dignissim enim sit amet venenatis urna cursus. Sagittis vitae et leo duis ut diam quam nulla porttitor. Morbi tempus iaculis urna id volutpat.
