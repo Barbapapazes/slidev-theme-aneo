@@ -19,6 +19,15 @@ hideInToc: true
 ---
 
 ---
+layout: cover
+hideInToc: true
+---
+
+# Small
+
+But very very large subtitle
+
+---
 layout: toc
 hideInToc: true
 
