@@ -1,3 +1,3 @@
 <template>
-  <LogoAneoShort class="absolute w-8 h-auto top-2 right-2" />
+  <LogoAneoShort class="absolute h-8 w-auto left-8 bottom-[1.375rem]" />
 </template>

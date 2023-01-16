@@ -19,6 +19,15 @@ hideInToc: true
 ---
 
 ---
+layout: cover
+hideInToc: true
+---
+
+# Small
+
+But very very large subtitle
+
+---
 layout: toc
 hideInToc: true
 ---
@@ -61,6 +70,10 @@ right: true
 ---
 layout: two-cols
 ---
+
+# Title
+
+::left::
 
 Colonne 1
 
@@ -127,7 +140,7 @@ Je suis le **contenu** de l'alerte. [Changez de page](/1).
 
 <Alert class="mt-8" title="Titre de l'alerte" color="red">
 
-Je suis le **contenu** de l'alerte. [Changez de page](/1).
+- Item 1
 
 </Alert>
 
@@ -182,3 +195,19 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 Subtitle subsection 2
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nullam non nisi est sit amet facilisis magna. Eu ultrices vitae auctor eu. Non quam lacus suspendisse faucibus interdum posuere lorem ipsum dolor. Dignissim enim sit amet venenatis urna cursus. Sagittis vitae et leo duis ut diam quam nulla porttitor. Morbi tempus iaculis urna id volutpat.
+
+---
+layout: content-center
+---
+
+# Titre
+
+::center::
+
+Le contenu est centré
+
+<Alert color="blue" title="Titre" class="mt-4">
+
+Je suis le **contenu** de l'alerte. [Changez de page](/1).
+
+</Alert>
