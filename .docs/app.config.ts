@@ -25,6 +25,12 @@ export default defineAppConfig({
       exclude: [],
     },
     footer: {
+      textLinks: [
+        {
+          text: 'Démo',
+          href: 'https://slidev-theme-aneo-demo.esteban-soubiran.site/',
+        }
+      ],
       iconLinks: [],
     },
   },
