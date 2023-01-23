@@ -6,6 +6,16 @@ Discover every layouts you can use to create your presentation
 
 This layout is used by default. It's a blank layout.
 
+Use can add a `see-more` link. It will appear at the top right of your presentation.
+
+```md
+---
+seeMore:
+  text: Read more
+  url: https://sli.dev
+---
+```
+
 ## Cover
 
 The cover layout is used ad the first slide of your presentation. It is used to display the title of your presentation and the date.
