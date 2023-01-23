@@ -9,6 +9,19 @@ Discover every layouts you can use to create your presentation
 
 This layout is used by default. It's a blank layout.
 
+
+## Center
+
+The center layout is used to display a centered content vertically but keep your header at the top.
+
+```md
+---
+layout: center
+---
+
+::alert{type="info"}
+The `seeMore` from the default layout is also available in this layout.
+::
 ## Cover
 
 The cover layout is used ad the first slide of your presentation. It is used to display the title of your presentation and the date.
