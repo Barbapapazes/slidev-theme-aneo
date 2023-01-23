@@ -1,3 +1,7 @@
+---
+navigation.icon:  heroicons:puzzle-piece
+---
+
 # Components
 
 Components can be used to add more power to your presentation.

@@ -1,3 +1,6 @@
+---
+navigation.icon: heroicons:rectangle-group
+---
 # Layouts
 
 Discover every layouts you can use to create your presentation
