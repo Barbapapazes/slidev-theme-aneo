@@ -1,3 +1,6 @@
+---
+navigation.icon: heroicons:rectangle-group
+---
 # Layouts
 
 Discover every layouts you can use to create your presentation
@@ -15,6 +18,19 @@ seeMore:
   url: https://sli.dev
 ---
 ```
+
+## Center
+
+The center layout is used to display a centered content vertically but keep your header at the top.
+
+```md
+---
+layout: center
+---
+
+::alert{type="info"}
+The `seeMore` from the default layout is also available in this layout.
+::
 
 ## Cover
 

@@ -1,3 +1,7 @@
+---
+navigation.icon:  heroicons:puzzle-piece
+---
+
 # Components
 
 Components can be used to add more power to your presentation.
@@ -80,13 +84,25 @@ This component can be used to highlight important information.
 </Alert>
 ```
 
-::alert{type="danger"}
-Be aware to add space between the component and the content above it. Otherwise, the component will be rendered on the same line.
-::
-
 | Props | Type | Default | Description |
 | --- | --- | --- | --- |
 | title | `string` | `undefined` | The title of the alert. |
 | color | `Color` | `undefined` | The color of the alert. |
 
 Available `Color` values are **orange**, **red**, **green**, **blue**, **yellow**.
+
+## CenterContent
+
+This component can be used to center the content of a slide horizontally.
+
+```html
+<CenterContent>
+
+You can center content with the `Center` component (horizontally).
+
+- Item 1
+- Item 2
+- Item 3 is so long (but always centered)
+
+</CenterContent>
+```

@@ -15,7 +15,7 @@ export default defineAppConfig({
       edit: true,
     },
     aside: {
-      level: 0,
+      level: 1,
       exclude: [],
     },
     header: {
@@ -25,6 +25,12 @@ export default defineAppConfig({
       exclude: [],
     },
     footer: {
+      textLinks: [
+        {
+          text: 'Démo',
+          href: 'https://slidev-theme-aneo-demo.esteban-soubiran.site/',
+        }
+      ],
       iconLinks: [],
     },
   },
