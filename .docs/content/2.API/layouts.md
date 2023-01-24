@@ -27,6 +27,7 @@ The center layout is used to display a centered content vertically but keep your
 ---
 layout: center
 ---
+```
 
 ::alert{type="info"}
 The `seeMore` from the default layout is also available in this layout.
@@ -159,3 +160,7 @@ layout: two-cols
 ## Right column
 
 ```
+
+::alert{type="info"}
+The `seeMore` from the default layout is also available in this layout.
+::
