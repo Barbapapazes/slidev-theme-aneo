@@ -71,6 +71,12 @@ Read more about [Windi CSS](https://windicss.org/).
 and more...
 ::
 
+## Built-in Slidev
+
+Slidev come with many built-in components.
+
+You can find the full list of components in [the repository](https://github.com/slidevjs/slidev/tree/main/packages/client/builtin).
+
 
 ## Alert
 
