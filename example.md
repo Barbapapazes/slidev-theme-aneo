@@ -240,3 +240,7 @@ You can center content with the `Center` component (horizontally).
 - Item 3 is so long (but always centered)
 
 </CenterContent>
+
+---
+src: ./example_2.md
+---
