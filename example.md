@@ -242,5 +242,33 @@ You can center content with the `Center` component (horizontally).
 </CenterContent>
 
 ---
+layout: content-center
+---
+
+# Titre
+
+::center::
+
+<CenterContent>
+<Transform scale="0.4" origin="center center">
+
+    ```ts
+    import { promises as fs } from 'fs';
+
+    export class Store {
+        constructor() {
+            }
+
+        async foo() {
+            const buffer = await fs.readFile('test.yaml', 'utf-8');
+            return buffer.substr(0, buffer.length);
+        }
+    }
+    ```
+
+</Transform>
+</CenterContent>
+
+---
 src: ./example_2.md
 ---

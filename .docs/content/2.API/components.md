@@ -71,8 +71,18 @@ Read more about [Windi CSS](https://windicss.org/).
 and more...
 ::
 
+## Built-in Slidev
 
-## Alert
+Slidev come with many built-in components.
+
+You can find the full list of components in [the repository](https://github.com/slidevjs/slidev/tree/main/packages/client/builtin).
+
+
+## Custom Components
+
+This theme provides some custom components.
+
+### Alert
 
 This component can be used to highlight important information.
 
@@ -91,7 +101,7 @@ This component can be used to highlight important information.
 
 Available `Color` values are **orange**, **red**, **green**, **blue**, **yellow**.
 
-## CenterContent
+### CenterContent
 
 This component can be used to center the content of a slide horizontally.
 
