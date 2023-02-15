@@ -2,14 +2,14 @@ lockfileVersion: 5.4
 
 specifiers:
   '@slidev/cli': ^0.38.0
-  '@slidev/types': ^0.38.0
+  '@slidev/types': ^0.40.0
   codemirror-theme-vars: ^0.1.1
   playwright-chromium: ^1.29.2
   prism-theme-vars: ^0.2.4
   zx: ^7.1.1
 
 dependencies:
-  '@slidev/types': 0.38.3
+  '@slidev/types': 0.40.3
   codemirror-theme-vars: 0.1.1
   prism-theme-vars: 0.2.4
   zx: 7.1.1
@@ -804,6 +804,12 @@ packages:
   /@slidev/types/0.38.3:
     resolution: {integrity: sha512-qbigjJXjpcNhquBp4Tp6ChZp3ZUpteF5/a5yiCRVK+1vv6VWjTRIlXfBVACaKCxwgiDBTvARAx0DcjgG1A0NKA==}
     engines: {node: '>=14.0.0'}
+    dev: true
+
+  /@slidev/types/0.40.3:
+    resolution: {integrity: sha512-2sE44hvFVWUmWQPZlTx+ZVosSH2QIgnXfRdbMRu5//KN5U5eEvntEwNVhVmDuIYAsTEt9DYJeLrE81XODG7dcg==}
+    engines: {node: '>=14.0.0'}
+    dev: false
 
   /@types/estree/1.0.0:
     resolution: {integrity: sha512-WulqXMDUTYAXCjZnk6JtIHPigp55cVtDgDrO2gHRwhyJto21+1zbVCtOYB2L1F9w4qCQ0rOGWBnBe0FNTiEJIQ==}
