@@ -240,3 +240,32 @@ You can center content with the `Center` component (horizontally).
 - Item 3 is so long (but always centered)
 
 </CenterContent>
+
+
+---
+layout: content-center
+---
+
+# Titre
+
+::center::
+
+<CenterContent>
+<Transform scale="0.4" origin="center center">
+
+    ```ts
+    import { promises as fs } from 'fs';
+
+    export class Store {
+        constructor() {
+            }
+
+        async foo() {
+            const buffer = await fs.readFile('test.yaml', 'utf-8');
+            return buffer.substr(0, buffer.length);
+        }
+    }
+    ```
+
+</Transform>
+</CenterContent>
