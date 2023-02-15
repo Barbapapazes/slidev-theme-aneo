@@ -23,7 +23,7 @@
     "ci:publish": "zx scripts/publish.mjs"
   },
   "dependencies": {
-    "@slidev/types": "^0.38.0",
+    "@slidev/types": "^0.40.0",
     "codemirror-theme-vars": "^0.1.1",
     "prism-theme-vars": "^0.2.4",
     "zx": "^7.1.1"
