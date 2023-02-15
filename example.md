@@ -241,7 +241,6 @@ You can center content with the `Center` component (horizontally).
 
 </CenterContent>
 
-
 ---
 layout: content-center
 ---
@@ -269,3 +268,7 @@ layout: content-center
 
 </Transform>
 </CenterContent>
+
+---
+src: ./example_2.md
+---
