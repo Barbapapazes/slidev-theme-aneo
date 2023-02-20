@@ -1,5 +1,8 @@
 name: Publish
 
+permissions:
+  contents: write
+
 on:
   push:
     tags:
@@ -14,10 +17,14 @@ jobs:
           fetch-depth: 0
       - uses: actions/setup-node@v3
         with:
-          node-version: "14"
+          node-version: "18"
           registry-url: https://registry.npmjs.org/
       - run: npm i -g pnpm @antfu/ni
       - run: nci
       - run: nr ci:publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
+
+      - run: npx changelogithub
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
