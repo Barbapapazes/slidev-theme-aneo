@@ -7,6 +7,9 @@ background: https://images.unsplash.com/photo-1535957998253-26ae1ef29506?fit=cro
 highlighter: shiki
 hideInToc: true
 favicon: /favicon.ico
+logos:
+    - /armonik.png
+logosClass: h-6
 ---
 
 # Titre de la présentation
