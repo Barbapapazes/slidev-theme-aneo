@@ -9,7 +9,7 @@
     "generate": "nuxi generate"
   },
   "devDependencies": {
-    "nuxt": "^3.0.0",
-    "@nuxt-themes/docus": "^1.1.5"
+    "nuxt": "^3.2.2",
+    "@nuxt-themes/docus": "^1.8.2"
   }
 }

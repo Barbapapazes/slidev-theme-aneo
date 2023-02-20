@@ -1,10 +1,10 @@
 <script lang="ts" setup>
 import { computed } from 'vue';
-import LogoAneoShort from '../components/logos/LogoAneoShort.vue';
-import { handleBackground } from '../layoutHelper'
+import { handleBackground } from '../layoutHelper';
+import type { BackgroundPosition } from '../types/background-position';
 
 const props = defineProps<{
-  background: string,
+  background?: string,
   right?: boolean,
   position?: BackgroundPosition,
 }>()
@@ -20,7 +20,6 @@ const style = computed(() => handleBackground(props.background, true, props.posi
       </div>
       <div :style="style" :class="{ 'row-start-1': right }"></div>
     </div>
-    <Logo />
+    <Logos />
   </div>
 </template>
-

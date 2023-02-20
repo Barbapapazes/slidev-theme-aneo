@@ -1,4 +1,6 @@
 <script lang="ts" setup>
+import type { SeeMore } from '../types/see-more'
+
 defineProps<{
   seeMore?: SeeMore
 }>()

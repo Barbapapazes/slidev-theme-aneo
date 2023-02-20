@@ -1,4 +1,4 @@
-type BackgroundPosition =
+export type BackgroundPosition =
   | 'center'
   | 'top'
   | 'bottom'
