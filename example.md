@@ -281,5 +281,20 @@ layout: content-center
 </Transform>
 
 ---
+
+# Sections content
+
+<SectionContent title="The first one" color="#c11e16">
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vel cursus eros. Morbi ultrices, libero eget faucibus imperdiet, tortor metus pulvinar nisi, id tincidunt velit metus ut magna. Phasellus lobortis orci non ante varius eleifend. Nullam tellus dui, ornare id sollicitudin et, pellentesque et mi. Quisque condimentum tristique quam ut consectetur.
+
+</SectionContent>
+
+<SectionContent title="The first one" color="#49e6d5" class="mt-4">
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vel cursus eros. Morbi ultrices, libero eget faucibus imperdiet, tortor metus pulvinar nisi, id tincidunt velit metus ut magna. Phasellus lobortis orci non ante varius eleifend. Nullam tellus dui, ornare id sollicitudin et, pellentesque et mi. Quisque condimentum tristique quam ut consectetur.
+
+</SectionContent>
+---
 src: ./example_2.md
 ---
