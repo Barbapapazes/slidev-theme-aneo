@@ -101,6 +101,23 @@ This component can be used to highlight important information.
 
 Available `Color` values are **orange**, **red**, **green**, **blue**, **yellow**.
 
+### SectionContent
+
+This component is nearly the same as the `Alert` component but with a different style to allow you to create sections inside your slides.
+
+```html
+<SectionContent color="blue" title="Title">
+
+  This is a section.
+
+</SectionContent>
+```
+
+| Props | Type | Default | Description |
+| --- | --- | --- | --- |
+| title | `string` | `undefined` | The title of the section. |
+| color | `string` | `undefined` | You can use any valid color. |
+
 ### CenterContent
 
 This component can be used to center the content of a slide horizontally.
