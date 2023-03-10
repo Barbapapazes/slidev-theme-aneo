@@ -273,5 +273,13 @@ layout: content-center
 </CenterContent>
 
 ---
+
+# A zoomed image
+
+<Transform scale="0.6" origin="top center">
+    <Zoom src="https://images.unsplash.com/photo-1616627577385-5c0c4dab0257?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80" zoom="3" origin="center center" />
+</Transform>
+
+---
 src: ./example_2.md
 ---
