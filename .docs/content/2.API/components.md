@@ -116,3 +116,17 @@ You can center content with the `Center` component (horizontally).
 
 </CenterContent>
 ```
+
+### Zoom
+
+This component can be used to zoom inside an image.
+  
+```html
+<Zoom src="https://source.unsplash.com/random/800x600" scale="1.3" origin="left center" />
+```
+
+| Props | Type | Default | Description |
+| --- | --- | --- | --- |
+| src | `string` | required | The source of your image. |
+| scale | `string` | `undefined` | The amount of zoom. |
+| origin | `string` | `undefined` | The origin of the zoom. |
