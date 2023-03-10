@@ -147,3 +147,19 @@ This component can be used to zoom inside an image.
 | src | `string` | required | The source of your image. |
 | scale | `string` | `undefined` | The amount of zoom. |
 | origin | `string` | `undefined` | The origin of the zoom. |
+
+### Separator
+
+This component can be used to separate title from content.
+
+::alert{type="info"}
+The position can be easily changed using the attribute `class`.
+::
+
+```html
+<Separator />
+```
+
+::alert{type="warning"}
+You must add it manually in each slide.
+::

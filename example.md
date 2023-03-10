@@ -55,7 +55,12 @@ position: right
 ---
 # <carbon-ai-status-complete/> Objectifs
 
+
 ---
+
+## Objectifs
+
+<Separator class="mt-8 mb-8" />
 
 Les objectifs de cette présentation sont les suivants :
 - Objectif 1
