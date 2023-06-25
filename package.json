@@ -1,6 +1,6 @@
 {
   "name": "slidev-theme-aneo",
-  "packageManager": "pnpm@7.29.1",
+  "packageManager": "pnpm@8.6.3",
   "version": "0.6.0",
   "license": "MIT",
   "author": {
@@ -23,15 +23,14 @@
     "release": "bumpp"
   },
   "dependencies": {
-    "@slidev/types": "^0.40.3",
-    "codemirror-theme-vars": "^0.1.1",
-    "prism-theme-vars": "^0.2.4",
-    "zx": "^7.2.0"
+    "@slidev/types": "^0.40.16",
+    "codemirror-theme-vars": "^0.1.2",
+    "prism-theme-vars": "^0.2.4"
   },
   "devDependencies": {
-    "@slidev/cli": "^0.40.3",
+    "@slidev/cli": "^0.40.16",
     "bumpp": "^9.1.1",
-    "playwright-chromium": "^1.31.2"
+    "playwright-chromium": "^1.35.1"
   },
   "//": "Learn more: https://sli.dev/themes/write-a-theme.html",
   "slidev": {
