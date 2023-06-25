@@ -21,7 +21,7 @@ jobs:
           registry-url: https://registry.npmjs.org/
       - run: npm i -g pnpm @antfu/ni
       - run: nci
-      - run: nr ci:publish
+      - run: pnpm publish --access public --no-git-checks
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
 

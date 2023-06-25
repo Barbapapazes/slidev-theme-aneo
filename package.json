@@ -20,7 +20,7 @@
     "dev": "slidev example.md --open",
     "export": "slidev export example.md",
     "screenshot": "slidev export example.md --format png",
-    "ci:publish": "zx scripts/publish.mjs"
+    "release": "bumpp"
   },
   "dependencies": {
     "@slidev/types": "^0.40.3",
@@ -30,6 +30,7 @@
   },
   "devDependencies": {
     "@slidev/cli": "^0.40.3",
+    "bumpp": "^9.1.1",
     "playwright-chromium": "^1.31.2"
   },
   "//": "Learn more: https://sli.dev/themes/write-a-theme.html",
