@@ -23,7 +23,7 @@
     "release": "bumpp"
   },
   "dependencies": {
-    "@slidev/types": "^0.40.16",
+    "@slidev/types": "^0.48.0",
     "codemirror-theme-vars": "^0.1.2",
     "prism-theme-vars": "^0.2.4"
   },
