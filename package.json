@@ -1,6 +1,6 @@
 {
   "name": "slidev-theme-aneo",
-  "packageManager": "pnpm@8.6.3",
+  "packageManager": "pnpm@8.15.5",
   "version": "0.6.1",
   "license": "MIT",
   "author": {
